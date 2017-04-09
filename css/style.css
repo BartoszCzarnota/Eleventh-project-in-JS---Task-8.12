@@ -1,0 +1,9 @@
+/* style.css */
+
+.container {
+	padding: 10px;
+}
+
+[class*="col-"] {
+	padding: 5px;
+}
