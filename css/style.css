@@ -1,9 +1,39 @@
 /* style.css */
-
+body {
+	background-image: url("../images/rock-paper-scissors.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 642px;
+}
+h3 {
+	color: #fff;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+h4 {
+	font-size: 30px;
+}
+/*span {
+	color: #fff;
+	font-size: 19px;
+	font-weight: 400;
+}*/
 .container {
 	padding: 10px;
 }
 
 [class*="col-"] {
 	padding: 5px;
+}
+#js-playerPoints, #js-computerPoints {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 7px;
+}
+#js-playerName, #js-VS, #js-computerName, #js-playerPick, #js-computerPick, #js-playerResult, #js-computerResult, #js-finalCongratsText {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
 }
