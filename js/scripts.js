@@ -27,7 +27,7 @@ function setGameElements() {
         	if (player.score > computer.score) {
         		finalCongratsText.innerHTML = ('Gratulacje ' + player.name + ' wygrałeś! ' + player.score + ' : ' + computer.score);
 			} else {
-				finalCongratsText.innerHTML = ('' + player.name + ' przegrałeś ' + player.score + ' : ' + computer.score +' Spróbuj jeszcze raz!');
+				finalCongratsText.innerHTML = ('' + player.name + ' przegrałeś ' + player.score + ' : ' + computer.score + ' Spróbuj jeszcze raz!');
 			};
             newGameBtn.innerText = 'Jeszcze raz';
             pickElem.style.display = 'none';
